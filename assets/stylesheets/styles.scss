@@ -1,0 +1,314 @@
+
+$secondarycolor: #0A162B;
+$Cabin: cabin;
+$OpenSans: Open Sans;
+
+
+body {
+    font-family: $Cabin;
+    position: relative;
+    background: #ffffff;
+    width: 1440px;
+    height: 1125px;
+}
+
+
+div.col-sm-2 {
+    text-align: center;
+    width: 168px;
+    height: 239px;
+}
+   
+img {
+    width: 168px;
+    height: 239px;   
+    margin: 21px 0px 10px 0px;
+}
+
+h1 {
+    font-family: $Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    color: $secondarycolor
+}
+
+
+h2 {
+    font-family: $Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin: 7px 0px 2px 0px;
+    color: $secondarycolor;
+}
+
+.topnav {
+font-family: $Cabin;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+text-align: center;
+margin: 11px 0px 20px 0px;
+color: $secondarycolor;
+}
+
+a {
+    color: #0A162B;
+    margin: 22px;
+}
+
+a:hover, a:focus {
+    color: #0A162B;
+}
+
+    /* Section Divider*/
+
+hr {
+    color: $secondarycolor;
+    border: 1px solid;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+
+h5 {
+    font-family: $Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+select {
+    width: 360px;
+    height: 55px;
+    radius: 5px;
+    border: 2px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    font-family: $Cabin;
+    font-style: normal;
+    font-weight: 18px;
+    color: $secondarycolor;
+    padding: 10px;
+    
+}
+
+
+button.btn.btn-danger {
+    width: 148px;
+    height: 45px;
+    font-family: $Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #0A162B;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+    background-blend-mode: overlay, normal;
+    border-radius: 30px;
+    border: none;
+}
+
+.col-sm-4 {
+    text-align: left;
+    padding-left: 67px;
+    padding-top: 5px;
+}
+
+
+/* Rectangle */
+
+/* Top Skills Biology Graduates Have */
+h3 {
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 25px;
+    color: $secondarycolor;
+}
+
+
+div.rectangle {
+    background: #F3FBFF;
+    text-align: center;
+    height: 596px;
+}
+
+div.col-sm-12 {
+    text-align: center;
+}
+
+
+div.col-sm-5 {
+    background: #ffff;
+    text-align: center;
+    border: none;
+    margin: 10px 10px 10px 10px;
+  }
+
+  p {
+      font: $Cabin;
+      font-size: 18px;
+      font-style: normal;
+      text-align: center;
+      color: $secondarycolor;
+  }
+
+  h4 {
+      font: $Cabin;
+      font-size: 20px;
+      font-style: normal;
+      line-height: 24.3px;
+      text-align: center;
+      color: $secondarycolor
+  }
+
+  img.icon {
+      margin: 20px 0px 10px 0px;
+      width: 48px;
+      height: 52px;
+  }
+
+@media screen and (max-width: 480px) {
+
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.col-sm-4 {
+    text-align: center;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+button.btn.btn-danger {
+style: display: block; width: 100%;
+
+}
+
+div.rectangle {
+    height: 2000px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+div.topnav {
+    font-size: 14px;
+    padding-bottom: 144px;
+    }
+
+a.highest {
+    position: absolute;
+    width: 81px;
+    height: 50px;
+    left: 38px;
+    top: 290px;
+    line-height: 19px;
+    margin: 10px
+}
+
+a.fastest {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 159px;
+    top: 290px;
+    line-height: 19px;
+    margin: 10px
+}
+
+a.popular {
+    position: absolute;
+    width: 54px;
+    height: 57px;
+    left: 256px;
+    top: 290px;
+    line-height: 19px;
+    margin: 10px
+}
+
+a.lucrative {
+    position: absolute;
+    width: 110px;
+    height: 57px;
+    left: 60px;
+    top: 380px;
+    line-height: 19px;
+    margin: 10px
+}
+
+a.questions {
+    position: absolute;
+    width: 75px;
+    height: 57px;
+    left: 221px;
+    top: 380px;
+    line-height: 19px;
+    margin: 10px
+}
+
+hr {
+    width: 336px; 
+}
+
+div.col-sm-5 {
+    width: 352px;
+    height: 305px;
+  }
+
+  img {
+    margin: 21px -7px 0px 95px;
+  }
+ 
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 834px) { 
+    
+    /* STYLES HERE */
+
+    hr {
+        width: 688px; 
+    }
+
+    select {
+        position: absolute;
+        width: 336px;
+        height: 55px;
+        padding: 10px;  
+        top: 50%;
+    }
+    
+
+    h2 {
+        width: 267px;
+        height: 24px;
+        left: 123px;
+        font-size: 20px;
+        text-align: center;
+        margin: 7px 0px 2px 0px;
+        color: $secondarycolor;
+        top: 20%;
+    }
+}
