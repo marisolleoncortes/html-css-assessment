@@ -50,7 +50,7 @@ h2 {
 font-family: $Cabin;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 17px;
 text-align: center;
 margin: 11px 0px 20px 0px;
 color: $secondarycolor;
@@ -214,9 +214,13 @@ h1 {
     font-size: 15px;
 }
 
+.topnav {
+    margin-bottom: 134px;
+}
+
 div.topnav {
     font-size: 14px;
-    padding-bottom: 144px;
+    padding-bottom: 10px;
     }
 
 a.highest {
@@ -289,26 +293,56 @@ div.col-sm-5 {
     /* STYLES HERE */
 
     hr {
-        width: 688px; 
+        width: 588px; 
+    }
+
+    h2 {
+        font-size: 15px;    
+        margin-left: 38px;
+    }
+
+    h5 {
+        margin-left: 38px;  
     }
 
     select {
-        position: absolute;
-        width: 336px;
-        height: 55px;
-        padding: 10px;  
-        top: 50%;
+        width: 220px;
+        margin-left: 5px;
     }
-    
 
-    h2 {
-        width: 267px;
-        height: 24px;
-        left: 123px;
-        font-size: 20px;
-        text-align: center;
-        margin: 7px 0px 2px 0px;
-        color: $secondarycolor;
-        top: 20%;
+    div.topnav {
+        font-size: 16px;
+        padding-bottom: 10px;
+        }
+
+        .topnav {
+            font-size: 16px;
+            text-align: center;
+            margin: 11px 0px 10px 0px;
+            color: $secondarycolor;
+            }
+     
+a.highest {
+    width: 142px;
+    height: 19px;
+    left: 180px;
+    line-height: 19px;
+    margin: 10px
+}   
+
+div.rectangle {
+    height: 1000px;;
+}
+
+button.btn.btn-danger {
+    width: 100px;
+    margin-left: 19px;
     }
+
+    a.lucrative {
+        padding-left: 50px;
+        width: 115px;
+        
+    }
+
 }
